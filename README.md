@@ -1,5 +1,7 @@
 # Phxvue
 
+This template uses Phoenix Server to serve actual Phoenix content and webpack dev server to serve webpack Vue bundle from a standalone endpoint. Check `assets/webpack.config.dev.js` if you want to reconfigure webpack functionality.
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
@@ -11,7 +13,7 @@ To start your webpack bundle:
   * Install dependencies with `cd assets && yarn`
   * Start webpack dev server with `npm run build`
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser. Vue bundle is injected to the app.html.eex from `localhost:8080`.
+Now you can visit [`localhost:4000`](http://localhost:4000) from your browser. Vue bundle is injected to the `app.html.eex` from `localhost:8080`.
 
 ## Todo
 
