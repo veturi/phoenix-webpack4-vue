@@ -1,13 +1,15 @@
 <template>
   <div>
-    <h1>Hello from Vue! 7</h1>
+    <h1>{{message}}</h1>
   </div>
 </template>
 
 <script>
 export default {
-  mounted() {
-    console.log('test3');
+  data: function() {
+    return {
+      message: "Hello from Vue"
+    }
   }
 }
 </script>
