@@ -1,10 +1,10 @@
 {
-  "name": "Pilke",
+  "name": "phxvue",
   "version": "1.0.0",
-  "description": "Pilke Web",
+  "description": "phxvue frontend",
   "main": "app.js",
   "author": "Jarno Tikka",
-  "license": "Proprietary",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "build": "webpack-dev-server --config webpack.config.dev.js"
