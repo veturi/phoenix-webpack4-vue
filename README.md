@@ -32,3 +32,12 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
   * Docs: https://hexdocs.pm/phoenix
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
+
+## Helpful links when setting this up (and for later reference)
+
+  * Github issue discussion: https://github.com/webpack/webpack-dev-server/issues/262
+  * Webpack DevServer docs: https://webpack.js.org/configuration/dev-server/#devserver-port
+  * Webpack HMR docs: https://webpack.js.org/guides/hot-module-replacement/
+  * Webpack DevServer GitHub wiki (last section): https://github.com/webpack/docs/wiki/webpack-dev-server
+  * Blogpost by Franze JR: https://www.dailydrip.com/blog/how-to-use-phoenix-with-webpack-react-redux.html
+  * Vue and Webpack 4 Blogpost by Daniel Cook: https://itnext.io/vue-js-and-webpack-4-from-scratch-part-2-5038cc9deffb
