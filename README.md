@@ -11,14 +11,17 @@ To start your Phoenix server:
 To start your webpack bundle:
 
   * Install dependencies with `cd assets && yarn`
-  * Start webpack dev server with `npm run build`
+  * Start webpack dev server with `yarn run build`
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser. Vue bundle is injected to the `app.html.eex` from `localhost:8080`.
 
 ## Todo
 
   * Properly launch webpack dev server and phoenix server through phoenix watcher configuration
+  * SASS/LESS (or some other) preprocessor for CSS
   * Properly inject CSS. Now handles only JS
+  * Production build propably not yet working. Check.
+  * Docker support
 
 Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
 
