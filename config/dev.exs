@@ -12,6 +12,10 @@ config :phxvue, PhxvueWeb.Endpoint,
   code_reloader: true,
   check_origin: false,
   watchers: []
+  # watchers: [
+  #   npm: [
+  #     "run", "build", cd: Path.expand("../assets/", __DIR__)
+  # ]]
 
 # ## SSL Support
 #
